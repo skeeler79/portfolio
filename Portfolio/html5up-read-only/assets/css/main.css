@@ -2162,6 +2162,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 5px;
 			display: block;
+			border: solid 1px #4acaa8;
 		}
 
 		.image.left {
@@ -2190,12 +2191,14 @@ input, select, textarea {
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+			
 		}
 
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				border: 0;
 			}
 
 		.image.main {
